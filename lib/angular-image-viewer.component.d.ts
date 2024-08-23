@@ -55,5 +55,5 @@ export declare class AngularImageViewerComponent implements OnInit, OnChanges {
     private updateStyle;
     private mergeConfig;
     static ɵfac: i0.ɵɵFactoryDeclaration<AngularImageViewerComponent, [{ optional: true; }, null]>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<AngularImageViewerComponent, "angular-image-viewer", never, { "src": { "alias": "src"; "required": false; }; "screenHeightOccupied": { "alias": "screenHeightOccupied"; "required": false; }; "index": { "alias": "index"; "required": false; }; "config": { "alias": "config"; "required": false; }; }, { "indexChange": "indexChange"; "configChange": "configChange"; "customImageEvent": "customImageEvent"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<AngularImageViewerComponent, "angular-image-viewer", never, { "src": { "alias": "src"; "required": false; }; "screenHeightOccupied": { "alias": "screenHeightOccupied"; "required": false; }; "index": { "alias": "index"; "required": false; }; "config": { "alias": "config"; "required": false; }; }, { "indexChange": "indexChange"; "configChange": "configChange"; "customImageEvent": "customImageEvent"; }, never, never, true, never>;
 }
