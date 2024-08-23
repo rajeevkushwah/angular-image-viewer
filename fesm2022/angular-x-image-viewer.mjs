@@ -2,9 +2,8 @@ import * as i0 from '@angular/core';
 import { Directive, Input, EventEmitter, Component, Optional, Inject, Output, HostListener, NgModule } from '@angular/core';
 import { NgStyle, NgIf, NgFor, CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import * as i1 from '@angular/platform-browser';
-import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import * as i1 from '@angular/platform-browser';
 
 class CustomImageEvent {
     name;
@@ -426,7 +425,7 @@ class AngularImageViewerModule {
     static ɵfac = function AngularImageViewerModule_Factory(t) { return new (t || AngularImageViewerModule)(); };
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: AngularImageViewerModule });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule,
-            BrowserModule,
+            // BrowserModule,
             FormsModule,
             BrowserAnimationsModule] });
 }
@@ -435,7 +434,7 @@ class AngularImageViewerModule {
         args: [{
                 imports: [
                     CommonModule,
-                    BrowserModule,
+                    // BrowserModule,
                     FormsModule,
                     BrowserAnimationsModule,
                     AngularImageViewerComponent, FullScreenDirective,
@@ -444,7 +443,7 @@ class AngularImageViewerModule {
             }]
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(AngularImageViewerModule, { imports: [CommonModule,
-        BrowserModule,
+        // BrowserModule,
         FormsModule,
         BrowserAnimationsModule,
         AngularImageViewerComponent, FullScreenDirective], exports: [AngularImageViewerComponent, FullScreenDirective] }); })();
