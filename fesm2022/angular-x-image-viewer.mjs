@@ -61,8 +61,8 @@ class FullScreenDirective {
     }
     ngOnInit() {
     }
-    static ɵfac = function FullScreenDirective_Factory(t) { return new (t || FullScreenDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
-    static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: FullScreenDirective, selectors: [["", "appScreenfull", ""]], inputs: { fullscreenState: [i0.ɵɵInputFlags.None, "appScreenfull", "fullscreenState"] }, standalone: true, features: [i0.ɵɵNgOnChangesFeature] });
+    static ɵfac = function FullScreenDirective_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || FullScreenDirective)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
+    static ɵdir = /*@__PURE__*/ i0.ɵɵdefineDirective({ type: FullScreenDirective, selectors: [["", "appScreenfull", ""]], inputs: { fullscreenState: [0, "appScreenfull", "fullscreenState"] }, standalone: true, features: [i0.ɵɵNgOnChangesFeature] });
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(FullScreenDirective, [{
         type: Directive,
@@ -349,7 +349,7 @@ class AngularImageViewerComponent {
         }
         return result;
     }
-    static ɵfac = function AngularImageViewerComponent_Factory(t) { return new (t || AngularImageViewerComponent)(i0.ɵɵdirectiveInject('config', 8), i0.ɵɵdirectiveInject(i1.DomSanitizer)); };
+    static ɵfac = function AngularImageViewerComponent_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || AngularImageViewerComponent)(i0.ɵɵdirectiveInject('config', 8), i0.ɵɵdirectiveInject(i1.DomSanitizer)); };
     static ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AngularImageViewerComponent, selectors: [["angular-image-viewer"]], hostBindings: function AngularImageViewerComponent_HostBindings(rf, ctx) { if (rf & 1) {
             i0.ɵɵlistener("keyup.ArrowRight", function AngularImageViewerComponent_keyup_ArrowRight_HostBindingHandler($event) { return ctx.nextImage($event); }, false, i0.ɵɵresolveWindow)("keyup.ArrowLeft", function AngularImageViewerComponent_keyup_ArrowLeft_HostBindingHandler($event) { return ctx.prevImage($event); }, false, i0.ɵɵresolveWindow)("mouseover", function AngularImageViewerComponent_mouseover_HostBindingHandler() { return ctx.onMouseOver(); })("mouseleave", function AngularImageViewerComponent_mouseleave_HostBindingHandler() { return ctx.onMouseLeave(); });
         } }, inputs: { src: "src", screenHeightOccupied: "screenHeightOccupied", index: "index", config: "config" }, outputs: { indexChange: "indexChange", configChange: "configChange", customImageEvent: "customImageEvent" }, standalone: true, features: [i0.ɵɵNgOnChangesFeature, i0.ɵɵStandaloneFeature], decls: 11, vars: 15, consts: [[1, "img-container", 3, "wheel", "dragover", "appScreenfull"], ["alt", "Image not found...", 3, "dragstart", "load", "error", "loadstart", "src", "ngStyle"], ["class", "spinner-container", 4, "ngIf"], ["type", "button", 3, "class", "click", 4, "ngIf"], ["type", "button", 3, "class", "click", 4, "ngFor", "ngForOf"], ["type", "button", "id", "ngx-fs-btn", 3, "class", "click", 4, "ngIf"], ["class", "nav-button-container", 4, "ngIf"], [1, "spinner-container"], [1, "spinner"], ["type", "button", 3, "click"], ["type", "button", "id", "ngx-fs-btn", 3, "click"], [1, "nav-button-container"], ["type", "button", 3, "click", "disabled"]], template: function AngularImageViewerComponent_Template(rf, ctx) { if (rf & 1) {
@@ -423,7 +423,7 @@ class AngularImageViewerComponent {
 
 // import { ImageViewerConfig } from 'dist/angular-image-viewer/public-api';
 class AngularImageViewerModule {
-    static ɵfac = function AngularImageViewerModule_Factory(t) { return new (t || AngularImageViewerModule)(); };
+    static ɵfac = function AngularImageViewerModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || AngularImageViewerModule)(); };
     static ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: AngularImageViewerModule });
     static ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule,
             BrowserModule,
